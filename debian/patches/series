@@ -6,3 +6,11 @@
 2002-fix-html-doc-generation.patch
 2003-disable-expand_tilde_unix-test.patch
 gcc-5.diff
+CVE-2018-10933-1.patch
+CVE-2018-10933-2.patch
+CVE-2018-10933-3.patch
+CVE-2018-10933-4.patch
+CVE-2018-10933-5.patch
+CVE-2018-10933-6.patch
+CVE-2018-10933-7.patch
+CVE-2018-10933-8.patch

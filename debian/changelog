@@ -1,3 +1,12 @@
+libssh (0.6.3-4.3ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: authentication bypass vulnerability
+    - debian/patches/CVE-2018-10933-*.patch: add upstream patches to
+      correct the issue.
+    - CVE-2018-10933
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 16 Oct 2018 15:05:17 -0400
+
 libssh (0.6.3-4.3) unstable; urgency=medium
 
   * Non-maintainer upload.

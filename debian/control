@@ -1,7 +1,8 @@
 Source: libssh
 Section: libs
 Priority: optional
-Maintainer: Laurent Bigonville <bigon@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Laurent Bigonville <bigon@debian.org>
 Uploaders: Mike Gabriel <sunweaver@debian.org>,
 Build-Depends: cmake (>= 2.6),
                debhelper (>= 9),
