@@ -14,3 +14,6 @@ CVE-2018-10933-5.patch
 CVE-2018-10933-6.patch
 CVE-2018-10933-7.patch
 CVE-2018-10933-8.patch
+CVE-2018-10933-regression.patch
+CVE-2018-10933-regression2.patch
+CVE-2018-10933-regression3.patch
