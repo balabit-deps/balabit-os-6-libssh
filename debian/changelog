@@ -1,3 +1,20 @@
+libssh (0.6.3-4.3ubuntu0.5) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: unsanitized location in scp could lead to unwanted
+    command execution
+    - debian/patches/CVE-2019-14889-1.patch: reformat code in scp/scp.c.
+    - debian/patches/CVE-2019-14889-2.patch: log SCP warnings received from
+      the server in src/scp.c.
+    - debian/patches/CVE-2019-14889-3.patch: add function to quote file
+      names in include/libssh/misc.h, src/misc.c.
+    - debian/patches/CVE-2019-14889-4.patch: don't allow file path longer
+      than 32kb in src/scp.c.
+    - debian/patches/CVE-2019-14889-5.patch: quote location to be used on
+      shell in src/scp.c.
+    - CVE-2019-14889
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 10 Dec 2019 10:32:29 -0500
+
 libssh (0.6.3-4.3ubuntu0.2) xenial-security; urgency=medium
 
   * SECURITY REGRESSION: fix multiple regressions (LP: #1805348)
