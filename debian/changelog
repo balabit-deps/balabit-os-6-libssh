@@ -1,3 +1,13 @@
+libssh (0.6.3-4.3ubuntu0.6) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: NULL pointer dereference
+    - debian/patches/CVE-2020-16135-*.patch: fix a NULL dereference
+      checking the return of ssh_buffer_new() and added others checks
+      in src/sftpservcer.c, src/buffer.c.
+    - CVE-2020-16135
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Fri, 31 Jul 2020 16:48:59 -0300
+
 libssh (0.6.3-4.3ubuntu0.5) xenial-security; urgency=medium
 
   * SECURITY UPDATE: unsanitized location in scp could lead to unwanted
